@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f68ad4e4-7dd7-4950-93fb-5d96ae262228" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f68ad4e4-7dd7-4950-93fb-5d96ae262228" name="Changes" comment="2/25 - debugging 1st algorithm">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiffStudentCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DiffStudentCode.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WORK_LOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/WORK_LOG.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PlagiarismChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlagiarismChecker.java" afterDir="false" />
     </list>
@@ -60,7 +58,16 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.PlagiarismCheckerTest.testCorrectSmall">
+  <component name="RunManager" selected="JUnit.PlagiarismCheckerTest">
+    <configuration name="PlagiarismCheckerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DiffStudentCode" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlagiarismCheckerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PlagiarismCheckerTest.testCorrectMed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DiffStudentCode" />
       <option name="PACKAGE_NAME" value="" />
@@ -76,16 +83,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PlagiarismCheckerTest" />
       <option name="METHOD_NAME" value="testCorrectSmall" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PlagiarismCheckerTest.testEdgeCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DiffStudentCode" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PlagiarismCheckerTest" />
-      <option name="METHOD_NAME" value="testEdgeCase" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PlagiarismCheckerTest" />
         <item itemvalue="JUnit.PlagiarismCheckerTest.testCorrectSmall" />
         <item itemvalue="JUnit.PlagiarismCheckerTest.testEfficientLarge" />
         <item itemvalue="JUnit.PlagiarismCheckerTest.testCorrectMed" />
         <item itemvalue="JUnit.PlagiarismCheckerTest.testEfficientLargest" />
-        <item itemvalue="JUnit.PlagiarismCheckerTest.testEdgeCase" />
       </list>
     </recent_temporary>
   </component>
@@ -130,6 +127,19 @@
       <option name="presentableId" value="Default" />
       <updated>1735799269884</updated>
     </task>
+    <task id="LOCAL-00001" summary="2/25 - debugging 1st algorithm">
+      <option name="closed" value="true" />
+      <created>1740536161728</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1740536161728</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2/25 - debugging 1st algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="2/25 - debugging 1st algorithm" />
   </component>
 </project>
