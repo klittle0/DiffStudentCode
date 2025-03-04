@@ -21,14 +21,12 @@ public class PlagiarismChecker {
         // Tabulation approach
         for (int i = 1; i <= doc1.length(); i++){
             for (int j = 1; j <= doc2.length(); j++) {
-                up = 0;
-                left = 0;
-                // If the two most recent chars are equal, increment diagonal value by 1
+                // If the two current chars (current index) are equal, increment diagonal value by 1
                 if (doc1.charAt(i - 1) == (doc2.charAt(j - 1))){
                     longest[i][j] = longest[i - 1][j - 1] + 1;
                 }
+                // Otherwise, find max of values up & to the left
                 else{
-                    // Find max of existing saved values in table — look up & left
                     up = longest[i - 1][j];
                     left = longest[i][j - 1];
                     longest[i][j] = Math.max(left, up);
